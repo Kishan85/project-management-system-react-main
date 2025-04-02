@@ -1,0 +1,170 @@
+.available {
+    color: green;
+}
+
+.unavailable {
+    color: red;
+}
+
+.invalid {
+    color: #e85347;
+    font-size: 11px;
+    font-style: italic;
+}
+
+.highcharts-figure,
+.highcharts-data-table table {
+    min-width: 360px;
+    max-width: 800px;
+    margin: 1em auto;
+}
+
+.highcharts-data-table table {
+    font-family: Verdana, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #ebebeb;
+    margin: 10px auto;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.highcharts-data-table caption {
+    padding: 1em 0;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.highcharts-data-table th {
+    font-weight: 600;
+    padding: 0.5em;
+}
+
+.highcharts-data-table td,
+.highcharts-data-table th,
+.highcharts-data-table caption {
+    padding: 0.5em;
+}
+
+.highcharts-data-table thead tr,
+.highcharts-data-table tr:nth-child(even) {
+    background: #f8f8f8;
+}
+
+.highcharts-data-table tr:hover {
+    background: #f1f7ff;
+}
+
+#container h4 {
+    text-transform: none;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#container p {
+    font-size: 13px;
+    line-height: 16px;
+}
+
+@media screen and (max-width: 600px) {
+    #container h4 {
+        font-size: 2.3vw;
+        line-height: 3vw;
+    }
+
+    #container p {
+        font-size: 2.3vw;
+        line-height: 3vw;
+    }
+}
+
+.highcharts-description {
+    margin: 0.3rem 10px;
+}
+
+
+.back-btn {
+    text-align: end;
+}
+
+.nk-cmwg1-ck {
+    height: 60px !important;
+    margin: -6px !important;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+/* .btn-primary {
+  --bs-btn-color: #fff !important;
+  --bs-btn-bg: #005495 !important;
+  --bs-btn-border-color: #005495 !important;
+  --bs-btn-hover-color: #000000 !important;
+  --bs-btn-hover-bg: #abe0f9 !important;
+  --bs-btn-hover-border-color: #005495 !important;
+  --bs-btn-focus-shadow-rgb: 124, 139, 255 !important;
+  --bs-btn-active-color: #000000 !important;
+  --bs-btn-active-bg: #515ecc !important;
+  --bs-btn-active-border-color: #4c59bf !important;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(16, 25, 36, 0.125) !important;
+  --bs-btn-disabled-color: #fff !important;
+  --bs-btn-disabled-bg: #6576ff !important;
+  --bs-btn-disabled-border-color: #6576ff !important;
+} */
+
+
+.kanban-item-title .title {
+    font-size: 0.9375rem;
+    margin-bottom: 0;
+    margin-right: 0.75rem;
+    white-space: nowrap;
+    width: 160px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+
+}
+
+.kanban-item-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task-title {
+    cursor: pointer;
+}
+
+
+.show-hide1 {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.react-datepicker{
+    display: flex!important;
+}
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box{
+    width: 84px;
+}
+
+.play-stop{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    margin: 0px;
+    display: flex;
+    justify-content: center; 
+     border-color: #005495;
+    background: #fff;
+}
+
+em.icon.ni.ni-play {
+    padding: 0px;
+    font-size: 13px;    
+    text-align: center;
+}
