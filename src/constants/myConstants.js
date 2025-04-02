@@ -1,5 +1,5 @@
-export const  BASE_URL ="http://192.168.23.13:3001/api/"; //? Abhishek
-// export const    BASE_URL ="http://192.168.23.177:3001/api/"; //? Varun
+// export const  BASE_URL ="http://192.168.23.13:3001/api/"; //? Abhishek
+export const    BASE_URL ="http://192.168.23.177:3001/api/"; //? Varun
 // export const  BASE_URL ="https://task.demoquaeretech.in/api/api/"; //! Development
 export const  BASE_URL_IMG ="http://192.168.23.177:3001/";
 export const RUPEES_SYMBOL = "₹"
